@@ -1,0 +1,6 @@
+AddHandler application/x-httpd-php5 .htm .html
+Options +Includes
+
+SetOutputFilter DEFLATE
+Redirect /fiddle http://jsfiddle.net/eM2Mg/
+Redirect /jsbin http://jsbin.com/cetoc/1/edit?css,js,output
